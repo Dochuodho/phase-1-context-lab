@@ -1,5 +1,72 @@
 /* Your Code Here */
 
+function createEmployeeRecord(){
+
+   return { 
+    firstName :"Gray",
+    familyName: "Worm",
+    title: "Security",
+    payPerHour: 1,
+    timeInEvents: [],
+    timeOutEvents: [],
+
+}
+
+}
+
+createEmployeeRecord();
+
+
+function createEmployeeRecords(){
+    return [
+        { 
+            firstName :"moe",
+            familyName: "sizlak",
+            title: "barkeep",
+            payPerHour: 2,
+            timeInEvents: [],
+            timeOutEvents: [],
+        
+        },
+        { 
+            firstName :"bartholomew",
+            familyName: "simpson",
+            title: "scamp",
+            payPerHour: 3,
+            timeInEvents: [],
+            timeOutEvents: [],
+        
+        }
+    ]
+
+
+
+
+
+
+    
+        
+    
+    
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
